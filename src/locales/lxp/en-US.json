@@ -1,0 +1,30 @@
+{
+  "common": {
+    "brand": "JK",
+    "name": "Learning experience platform",
+    "login": "Log in",
+    "logout": "Log out"
+  },
+  "success": {
+    "format": "{attribute} successfully"
+  },
+  "error": {
+    "login": "The format of mobile phone number is wrong, please fill in again."
+  },
+  "home": {
+    "myFavorite": "My favorite",
+    "myFavoriteMore": "See more",
+    "recommend": "Recommend",
+    "InBatch": "In a batch"
+  },
+  "detail": {
+    "next": "Next chapter",
+    "ending": "The end"
+  },
+  "login": {
+    "form": {
+      "phone": "Mobile phone number",
+      "password": "Password"
+    }
+  }
+}

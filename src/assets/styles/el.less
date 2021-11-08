@@ -1,0 +1,136 @@
+// el文字链接 字重
+.el-link--inner {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+// el表格
+.el-table {
+  tr th,
+  tr td {
+    padding: 4px;
+    font-size: 12px;
+  }
+}
+
+
+// el分页 外边距
+.el-pagination {
+  margin-top: 12px;
+}
+
+
+// el卡片 header内容位置、body内容位置
+.el-card {
+  .el-card__header {
+    padding: 16px 20px 8px;
+  }
+  .el-card .el-card__body {
+    padding: 8px 20px 16px;
+  }
+}
+
+
+// el多行文本 字数统计调整
+.el-textarea .el-input__count {
+  bottom: -8px !important;
+  background: transparent !important;
+}
+
+
+// el日期选择器 选择范围时的分隔符宽度调整
+.el-range-separator {
+  width: 10% !important;
+}
+
+
+// el多选框 禁用状态 已选颜色加深
+.el-checkbox.is-disabled.is-checked {
+  .el-checkbox__label {
+    color: #606266;
+  }
+  .el-checkbox__input.is-disabled.is-checked {
+    .el-checkbox__inner {
+      border-color: #606266;
+      &::after {
+        border-color: #606266;
+      }
+    }
+  }
+}
+
+
+// el输入框、选择器
+.el-input__inner:hover,
+.el-textarea__inner:hover,
+.el-select:hover .el-input__inner {
+  border-color: #409EFF;
+}
+.el-input.is-disabled .el-input__inner,
+.el-textarea.is-disabled .el-textarea__inner {
+  color: #606266 !important;
+  border: none !important;
+  cursor: default !important;
+}
+
+
+// el-upload 禁用状态 鼠标光标
+.upload-container.disabled {
+  .el-upload {
+    cursor: default;
+  }
+  img {
+    cursor: default;
+  }
+}
+
+
+// el-dropdown-menu
+.el-dropdown-menu.el-popper.dark {
+  background-color: #2c2d2f;
+  border: 1px solid #2c2d2f;
+  .popper__arrow {
+    border: none;
+    &:after {
+      border-bottom-color: #2c2d2f;
+    }
+  }
+  .el-dropdown-menu__item {
+    color: #b2b4b8;
+    &:not(.is-disabled):hover {
+      background-color: #27282a; 
+    }
+  }
+}
+
+
+// el-scrollbar
+.scrollbar-section {
+  height: 100%;
+  .el-scrollbar__wrap {
+    overflow-x: auto;
+    min-height: 100%;
+  }
+  .el-scrollbar__view {
+    min-height: 100%;
+  }
+}
+
+
+// el菜单导航
+.el-menu {
+  border-right: 0 !important;
+  .el-submenu,
+  .el-menu-item {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.el-menu-item,
+.el-submenu__title {
+  height: 48px !important;
+  line-height: 48px !important;
+}

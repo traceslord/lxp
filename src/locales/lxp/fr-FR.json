@@ -1,0 +1,30 @@
+{
+  "common": {
+    "brand": "JK",
+    "name": "Plateforme d'expérience d'apprentissage",
+    "login": "Connexion",
+    "logout": "Se déconnecter"
+  },
+  "success": {
+    "format": "{attribute} réussie"
+  },
+  "error": {
+    "login": "Il y a une erreur dans le format du numéro de téléphone portable, veuillez le remplir à nouveau."
+  },
+  "home": {
+    "myFavorite": "Ma collection",
+    "myFavoriteMore": "Voir plus",
+    "recommend": "Recommandée",
+    "InBatch": "Autre lot"
+  },
+  "detail": {
+    "next": "Chapitre suivant",
+    "ending": "Fin du livre"
+  },
+  "login": {
+    "form": {
+      "phone": "Numéro de téléphone mobile",
+      "password": "Mot de passe"
+    }
+  }
+}
