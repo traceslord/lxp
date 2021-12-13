@@ -5,5 +5,15 @@ import js from "./js";
 import es6 from "./es6";
 import laravel from "./laravel";
 import dockerRootMigration from "./docker_root_migration";
+import miniProgram from "./mini_program";
 
-export default [coldBoot, html, css, js, es6, laravel, dockerRootMigration];
+export default [
+  coldBoot,
+  html,
+  css,
+  js,
+  es6,
+  laravel,
+  dockerRootMigration,
+  miniProgram,
+];
