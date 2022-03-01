@@ -6,6 +6,7 @@ import es6 from "./es6";
 import laravel from "./laravel";
 import dockerRootMigration from "./docker_root_migration";
 import miniProgram from "./mini_program";
+import functionalParadigm from "./functional_paradigm";
 
 export default [
   coldBoot,
@@ -16,4 +17,5 @@ export default [
   laravel,
   dockerRootMigration,
   miniProgram,
+  functionalParadigm,
 ];

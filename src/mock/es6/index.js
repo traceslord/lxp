@@ -34,7 +34,7 @@ import reference32 from "./32_reference.md";
 export default {
   uuid: "00000ES6-AAAA-BBBB-CCCC-000000000000",
   name: "ES6 标准入门（第3版）",
-  url: "https://iioe-files-cdn.iioe.org/jpeg/37a886fc-2e3b-45bf-9389-fabb99c82104.jpeg",
+  url: "https://assets.jiker.com/_for_common_project/2022/0301/admin/kCxpLFlHLsDFT32pSFiJ7z4brmMRoIZKDIbKz6nO.jpeg",
   contents: [
     {
       uuid: "00000ES6-AAAA-BBBB-CCCC-000000000001",
